@@ -98,7 +98,7 @@ img {
   margin-bottom: 32px;
 }
 #header #hero {
-  margin-bottom: 45px;
+  margin-bottom: 130px;
 }
 
 /* Features (Header) */
@@ -236,6 +236,9 @@ img {
 #facts .content {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0 auto;
 }
 #facts .content .facts-item {
   border: 1px solid #ff900e;
@@ -295,6 +298,9 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 0 auto;
 }
 
 #sponsors .content img {
@@ -309,7 +315,7 @@ img {
 
 /* Footer */
 #footer {
-  padding: 40px;
+  padding: 40px 0;
   margin: 130px 0;
   background: #fff4e7;
   border-radius: 8px;
@@ -320,4 +326,38 @@ img {
   line-height: 23px;
   text-align: center;
   color: #424242;
+}
+
+/* Responsive  */
+@media only screen and (min-width: 320px) and (max-width: 959px) {
+  .container {
+    width: 100%;
+  }
+  /* Header */
+  #header #menu {
+    flex-direction: column;
+    text-align: center;
+  }
+  #header .header-text h2 {
+    font-size: 35px;
+    line-height: 35px;
+  }
+  #features #features-header {
+    grid-template-columns: 1fr;
+  }
+  #features #features-details {
+    grid-template-columns: 1fr;
+  }
+  #features #features-details .banner {
+    margin-top: 20px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+  body {
+    overflow-x: hidden;
+  }
 }
