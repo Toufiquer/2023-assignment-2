@@ -306,3 +306,18 @@ img {
 #sponsors .content img:hover {
   filter: none;
 }
+
+/* Footer */
+#footer {
+  padding: 40px;
+  margin: 130px 0;
+  background: #fff4e7;
+  border-radius: 8px;
+}
+#footer p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  color: #424242;
+}
