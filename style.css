@@ -269,3 +269,40 @@ img {
   margin: 0;
   padding: 0;
 }
+
+/* Sponsors */
+#sponsors,
+#sponsors .title {
+  margin: 50px 0;
+}
+#sponsors .title h2 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+  text-align: center;
+}
+#sponsors .title p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+  margin-top: 24px;
+  margin-bottom: 50px;
+}
+#sponsors .content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#sponsors .content img {
+  width: 166px;
+  height: 50px;
+  filter: grayscale(1);
+  cursor: pointer;
+}
+#sponsors .content img:hover {
+  filter: none;
+}
