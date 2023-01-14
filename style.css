@@ -5,6 +5,7 @@
 body {
   overflow-x: hidden;
 }
+/* Global Css */
 #header,
 #features,
 #sponsors,
@@ -20,7 +21,33 @@ body {
 img {
   width: 100%;
 }
+.btn-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.btn {
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  text-align: center;
+  padding: 20px 25px;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 32px;
+}
+.btn-orange {
+  background: #ff900e;
+  color: #ffffff;
+}
+.btn-orange:hover {
+  background: #ff8800;
+}
 /* Header Navbar */
+#header .header-screen {
+  min-height: 100vh;
+}
 #header #menu {
   min-height: 80px;
   display: flex;
@@ -53,4 +80,27 @@ img {
 }
 #header #menu nav ul li a:hover {
   text-decoration: underline;
+}
+
+#header .header-text h2 {
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+  color: #131313;
+  margin-bottom: 32px;
+  padding-top: 86px;
+}
+
+#header .header-text p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+  margin-bottom: 32px;
+}
+
+#header #hero {
+  margin-bottom: 45px;
 }
