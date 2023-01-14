@@ -101,15 +101,31 @@ img {
   margin-bottom: 45px;
 }
 
-/* Features  */
+/* Features (Header) */
 #features {
   margin: 0 85px;
   position: relative;
+  margin-bottom: 130px;
 }
+/* button only for Features */
 #features #features-10-year-btn {
   position: absolute;
   bottom: 0;
-  display: none;
+}
+#features #features-10-year-btn .bigger-text p {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 40px;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+#features #features-10-year-btn .bigger-text {
+  /* media query will change for container size 1440px. This style for (max container 960px) */
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 45px;
+  color: #ffffff;
 }
 #features #features-header,
 #features #features-header .features-gallery {
@@ -153,4 +169,42 @@ img {
   line-height: 26px;
   color: #727272;
   margin-bottom: 32px;
+}
+
+/* Features (details) */
+#features #features-details {
+  display: grid;
+  grid-template-columns: 1fr 500px;
+  align-items: center;
+}
+#features #features-details .details-summary .details-header h2 {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  border-left: 5px solid #ff900e;
+  padding-left: 21px;
+  margin-bottom: 24px;
+}
+#features #features-details .details-summary .details-header p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+}
+#features #features-details .details-summary .features-item {
+  margin-top: 30px;
+  padding: 30px 33px;
+}
+#features #features-details .details-summary .features-item h2 {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+  color: #131313;
+}
+#features #features-details .details-summary .features-item h2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  padding-top: 10px;
+  color: #727272;
 }
