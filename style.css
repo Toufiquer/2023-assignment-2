@@ -354,6 +354,15 @@ img {
   }
 }
 
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  #facts .content .facts-item {
+    height: 220px;
+    width: 220px;
+  }
+  #facts .title p {
+    margin-bottom: 40px;
+  }
+}
 @media only screen and (min-width: 1200px) {
   .container {
     width: 1140px;
