@@ -103,7 +103,7 @@ img {
 
 /* Features (Header) */
 #features {
-  margin: 0 85px;
+  /* margin: 0 85px; */
   position: relative;
   margin-bottom: 130px;
 }
@@ -235,10 +235,8 @@ img {
 
 #facts .content {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   flex-wrap: wrap;
-  gap: 20px;
-  margin: 0 auto;
 }
 #facts .content .facts-item {
   border: 1px solid #ff900e;
@@ -350,6 +348,9 @@ img {
   }
   #features #features-details .banner {
     margin-top: 20px;
+  }
+  #features #features-header .features-summary {
+    padding: 0;
   }
 }
 
